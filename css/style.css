@@ -183,19 +183,7 @@ body::before {
 /* 3.1 Hero Area
  * ----------------
  */
-.e24-hero-area {
-    position: relative;
-    z-index: 1; /* For properly displaying background on Safari browser */
-}
 
-.e24-hero-area::before {
-    background-color: #282828;
-    content: ' ';
-    width: 100%;
-    height: 70%;
-    position: absolute;
-    z-index: -1;
-}
 
 .e24-overlay {
     position: relative;
@@ -215,27 +203,6 @@ body::before {
     background-color: #000;
 }
 
-.e24-hero-content {
-    background: url('../images/mork-hero-image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 90%;
-}
-
-.e24-hero-slider {
-    height: 100vh;
-    width: 90%;
-}
-
-.e24-slide-1 {
-    background: url('../images/mork-hero-image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-}
 
 .e24-slide-2 {
     background: url('../images/slide-1.jpg');
